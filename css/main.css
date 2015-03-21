@@ -415,7 +415,7 @@ main {
 }
 
 #unexplored{
-    margin-top: 0px;
+    margin-top: -150px;
     font-size: 80px;
 }
 
@@ -493,15 +493,15 @@ main {
     float: right;
     font-size: 25px;
     margin-top: -50px;
-    margin-right: 0px;
+    margin-right: 5%;
 }
 
 #tunecoopmobileWebpageLink{
-    z-index: 100;
+/*    z-index: 100;*/
     float: right;
     font-size: 25px;
     margin-top: 0px;
-    margin-right: 0px;
+    margin-right: -20%;
 }
 
 #andForMobile{
@@ -625,3 +625,11 @@ main {
     font-weight: bold;
 }
 
+#previewTC{
+    font-size: 25px;
+    text-align: center;
+}
+/*
+#tcContain{
+    text-align: left;
+}*/
