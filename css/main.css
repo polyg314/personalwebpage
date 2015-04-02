@@ -629,6 +629,32 @@ main {
     font-size: 25px;
     text-align: center;
 }
+
+.finalLinks{
+    color: white;
+}
+
+.hsContent a{
+    color: white !important;
+    font-size: 18px;
+}
+
+.hsContent p {
+    color: white !important;
+    font-size: 18px;
+}
+
+#aboutPaulFinal{    
+    background-color: hsla(0,0%,15%,.5)
+}
+/*
+#forWebAndMobile{
+    margin-top: -40px;
+}
+*/
+#previewTC{
+    margin-bottom: 0px;
+}
 /*
 #tcContain{
     text-align: left;
