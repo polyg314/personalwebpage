@@ -47,6 +47,8 @@
 				width: 800px;
 			}
 			.entry-header { padding-top: 20px; background-color: #fff; width:100%; position: fixed; top: 0; left: 0; z-index: 999999}
+
+
 		</style>
     </head>
     <body class="loading">
@@ -292,6 +294,11 @@
 	    	<div class="bcg bcg3" data-300-bottom="opacity: 0;" data-100-bottom="opacity: 1;" data-anchor-target="#slide-5">
 		    	<div class="hsContainer">
 			    	<div class="hsContent" id="aboutPaulFinal" data-100-bottom="opacity: 0;" data-bottom="opacity: 1;" data-anchor-target="#slide-5">
+			    				    		<div id="fireFly1" class="fireFly glow"></div>
+			    		<div id="fireFly2"></div>
+			    		<div id="fireFly3"></div>
+			    		<div id="fireFly4"></div>
+			    		<div id="fireFly5"></div>
 			    		<h2>More about Paul:</h2>
 			    		<p><a class="finalLinks" href="https://www.github.com/polyg314" target="_blank">@github</a></p>
 			    		<p><a class="finalLinks" href="https://www.linkedin.com/in/paulgaudin" target="_blank">@linkedIn</a></p>
@@ -299,7 +306,9 @@
 			    		<container id="tcContain">
 				    		<h2 id="previewTC">And preview <span class="logoStyle">TuneCoop</span></h2>
 				    		<p id="forWebAndMobile">For web and mobile @ <a class="finalLinks" href="http://tunecoop.herokuapp.com/#/app/home" target="_blank">www.TuneCoop.herokuapp.com</a></p>
+
 			    		</container>
+
 		    		</div>
 		    	</div>
 	    	</div>
@@ -314,4 +323,15 @@
         <script src="js/_main.js"></script>
 
     </body>
+
+
+
+   <script>
+   	var fireFly1 = $('#fireFly1');
+		setInterval(function(){
+
+		    fireFly1.hasClass('glow') ? fireFly1.removeClass('glow') : fireFly1.addClass('glow');
+		}, 1000);
+
+   </script>
 </html>

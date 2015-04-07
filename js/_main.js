@@ -58,5 +58,7 @@
 	    s.refresh($('.homeSlide'));
 	    
 	}
+
+
 		
 } )( jQuery );

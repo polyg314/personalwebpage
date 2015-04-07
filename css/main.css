@@ -12,6 +12,8 @@ body {
 }
 
 
+
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -655,6 +657,29 @@ main {
 #previewTC{
     margin-bottom: 0px;
 }
+
+
+.fireFly {
+    -webkit-transition: box-shadow 1s linear;
+    -moz-transition: box-shadow 1s linear;
+    -ms-transition: box-shadow 1s linear;
+    -o-transition: box-shadow 1s linear;
+    transition: box-shadow 1s linear;
+}
+
+.fireFly.glow{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(232,240,5,1);
+}
+
+#fireFly1{
+    width: 4px;
+    height: 4px;
+    background-color: hsla(0,0%,100%,.5);
+    border-radius: 5px;
+}
+
+
 /*
 #tcContain{
     text-align: left;
