@@ -665,20 +665,64 @@ main {
     -ms-transition: box-shadow 1s linear;
     -o-transition: box-shadow 1s linear;
     transition: box-shadow 1s linear;
+    position: fixed;
 }
 
 .fireFly.glow{
     background-color: white;
-    box-shadow: 0 0 10px rgba(232,240,5,1);
+    box-shadow: 0 0 15px rgba(232,240,5,1) !important;
 }
 
 #fireFly1{
     width: 4px;
     height: 4px;
-    background-color: hsla(0,0%,100%,.5);
+    background-color: rgba(252,250,150,.4);
+    box-shadow: 0 0 5px rgba(232,240,5,1);
     border-radius: 5px;
 }
 
+#fireFly2{
+    width: 4px;
+    height: 4px;
+    background-color: rgba(252,250,150,.4);
+    box-shadow: 0 0 5px rgba(232,240,5,1);
+    border-radius: 5px;
+}
+#fireFly3{
+    width: 4px;
+    height: 4px;
+    background-color: rgba(252,250,150,.4);
+    box-shadow: 0 0 5px rgba(232,240,5,1);
+    border-radius: 5px;
+}
+#fireFly4{
+    width: 4px;
+    height: 4px;
+    background-color: rgba(252,250,150,.4);
+    box-shadow: 0 0 5px rgba(232,240,5,1);
+    border-radius: 5px;
+}
+#fireFly5{
+    width: 4px;
+    height: 4px;
+    background-color: rgba(252,250,150,.4);
+    box-shadow: 0 0 5px rgba(232,240,5,1);
+    border-radius: 5px;
+}
+#fireFly6{
+    width: 4px;
+    height: 4px;
+    background-color: rgba(252,250,150,.4);
+    box-shadow: 0 0 5px rgba(232,240,5,1);
+    border-radius: 5px;
+}
+#fireFly7{
+    width: 4px;
+    height: 4px;
+    background-color: rgba(252,250,150,.4);
+    box-shadow: 0 0 5px rgba(242,250,35,1);
+    border-radius: 5px;
+}
 
 /*
 #tcContain{

@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
         <style type="text/css">
 			.back-link a {
@@ -294,11 +295,13 @@
 	    	<div class="bcg bcg3" data-300-bottom="opacity: 0;" data-100-bottom="opacity: 1;" data-anchor-target="#slide-5">
 		    	<div class="hsContainer">
 			    	<div class="hsContent" id="aboutPaulFinal" data-100-bottom="opacity: 0;" data-bottom="opacity: 1;" data-anchor-target="#slide-5">
-			    				    		<div id="fireFly1" class="fireFly glow"></div>
-			    		<div id="fireFly2"></div>
-			    		<div id="fireFly3"></div>
-			    		<div id="fireFly4"></div>
-			    		<div id="fireFly5"></div>
+			    		<div id="fireFly1" class="fireFly glow"></div>
+			    		<div id="fireFly2" class="fireFly glow"></div>
+			    		<div id="fireFly3" class="fireFly glow"></div>
+			    		<div id="fireFly4" class="fireFly glow"></div>
+			    		<div id="fireFly5" class="fireFly glow"></div>
+			    		<div id="fireFly6" class="fireFly glow"></div>
+			    		<div id="fireFly7" class="fireFly glow"></div>
 			    		<h2>More about Paul:</h2>
 			    		<p><a class="finalLinks" href="https://www.github.com/polyg314" target="_blank">@github</a></p>
 			    		<p><a class="finalLinks" href="https://www.linkedin.com/in/paulgaudin" target="_blank">@linkedIn</a></p>
@@ -316,7 +319,6 @@
 		    
 		</main>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/imagesloaded.js"></script>
         <script src="js/skrollr.js"></script>
@@ -327,11 +329,148 @@
 
 
    <script>
+
+
    	var fireFly1 = $('#fireFly1');
 		setInterval(function(){
 
 		    fireFly1.hasClass('glow') ? fireFly1.removeClass('glow') : fireFly1.addClass('glow');
-		}, 1000);
+	}, 1000);
+
+	var fireFly2 = $('#fireFly2');
+		setInterval(function(){
+		    fireFly2.hasClass('glow') ? fireFly2.removeClass('glow') : fireFly2.addClass('glow');
+	}, 1000);
+
+	var fireFly3 = $('#fireFly3');
+		setInterval(function(){
+
+		    fireFly3.hasClass('glow') ? fireFly3.removeClass('glow') : fireFly3.addClass('glow');
+	}, 1000);
+
+	var fireFly4 = $('#fireFly4');
+		setInterval(function(){
+		    fireFly4.hasClass('glow') ? fireFly4.removeClass('glow') : fireFly4.addClass('glow');
+	}, 1000);
+
+	var fireFly5 = $('#fireFly5');
+		setInterval(function(){
+
+		    fireFly5.hasClass('glow') ? fireFly5.removeClass('glow') : fireFly5.addClass('glow');
+	}, 1000);
+
+	var fireFly6 = $('#fireFly6');
+		setInterval(function(){
+		    fireFly6.hasClass('glow') ? fireFly6.removeClass('glow') : fireFly6.addClass('glow');
+	}, 1000);
+
+	var fireFly7 = $('#fireFly7');
+		setInterval(function(){
+		    fireFly7.hasClass('glow') ? fireFly7.removeClass('glow') : fireFly7.addClass('glow');
+	}, 1000);
+
+
+
+
+	function makeNewPosition(){
+	    
+	    // Get viewport dimensions (remove the dimension of the div)
+	    var h = $(window).height() - 50;
+	    var w = $(window).width() - 50;
+	    
+	    var nh = Math.floor(Math.random() * h);
+	    var nw = Math.floor(Math.random() * w);
+	    
+	    return [nh,nw];    
+	    
+	}
+
+	function animateDivs(){
+	    var newq = makeNewPosition();
+	    var oldq = $('#fireFly1').offset();
+	    var speed = calcSpeed([oldq.top, oldq.left], newq);	    
+	    $('#fireFly1').animate({ top: newq[0], left: newq[1] }, speed, function(){
+	      animateDivs();        
+	    });	    
+	};
+
+	function animateDivs2(){
+	    var newq = makeNewPosition();
+	    var oldq = $('#fireFly2').offset();
+	    var speed = calcSpeed([oldq.top, oldq.left], newq);	    
+	    $('#fireFly2').animate({ top: newq[0], left: newq[1] }, speed, function(){
+	      animateDivs2();        
+	    });	    
+	};
+
+	function animateDivs3(){
+	    var newq = makeNewPosition();
+	    var oldq = $('#fireFly3').offset();
+	    var speed = calcSpeed([oldq.top, oldq.left], newq);	    
+	    $('#fireFly3').animate({ top: newq[0], left: newq[1] }, speed, function(){
+	      animateDivs3();        
+	    });	    
+	};
+
+	function animateDivs4(){
+	    var newq = makeNewPosition();
+	    var oldq = $('#fireFly4').offset();
+	    var speed = calcSpeed([oldq.top, oldq.left], newq);	    
+	    $('#fireFly4').animate({ top: newq[0], left: newq[1] }, speed, function(){
+	      animateDivs4();        
+	    });	    
+	};
+
+	function animateDivs5(){
+	    var newq = makeNewPosition();
+	    var oldq = $('#fireFly5').offset();
+	    var speed = calcSpeed([oldq.top, oldq.left], newq);	    
+	    $('#fireFly5').animate({ top: newq[0], left: newq[1] }, speed, function(){
+	      animateDivs5();        
+	    });	    
+	};
+
+	function animateDivs6(){
+	    var newq = makeNewPosition();
+	    var oldq = $('#fireFly6').offset();
+	    var speed = calcSpeed([oldq.top, oldq.left], newq);	    
+	    $('#fireFly6').animate({ top: newq[0], left: newq[1] }, speed, function(){
+	      animateDivs6();        
+	    });	    
+	};
+
+	function animateDivs7(){
+	    var newq = makeNewPosition();
+	    var oldq = $('#fireFly7').offset();
+	    var speed = calcSpeed([oldq.top, oldq.left], newq);	    
+	    $('#fireFly7').animate({ top: newq[0], left: newq[1] }, speed, function(){
+	      animateDivs7();        
+	    });	    
+	};
+
+	function calcSpeed(prev, next) {
+	    
+	    var x = Math.abs(prev[1] - next[1]);
+	    var y = Math.abs(prev[0] - next[0]);
+	    
+	    var greatest = x > y ? x : y;
+	    
+	    var speedModifier = 0.5;
+
+	    var speed = Math.ceil(greatest/speedModifier);
+
+	    return speed;
+
+}
+
+	    animateDivs();
+	    animateDivs2();
+	    animateDivs3();
+	    animateDivs4();
+	    animateDivs5();
+	    animateDivs6();
+	    animateDivs7();
+
 
    </script>
 </html>
