@@ -623,7 +623,7 @@ main {
     font-size: 80px;
     position: absolute;
     left: 35%;
-    bottom: 450px !important;
+    bottom: 53.5% !important;
     font-weight: bold;
 }
 
@@ -669,19 +669,19 @@ main {
 }
 
 .fireFly.glow{
-    background-color: white;
+/*    background-color: white;*/
     box-shadow: 0 0 15px rgba(232,240,5,1) !important;
 }
 
-#fireFly1{
+/*#fireFly1{
     width: 4px;
     height: 4px;
     background-color: rgba(252,250,150,.4);
     box-shadow: 0 0 5px rgba(232,240,5,1);
     border-radius: 5px;
 }
-
-#fireFly2{
+*/
+/*#fireFly2{
     width: 4px;
     height: 4px;
     background-color: rgba(252,250,150,.4);
@@ -721,6 +721,18 @@ main {
     height: 4px;
     background-color: rgba(252,250,150,.4);
     box-shadow: 0 0 5px rgba(242,250,35,1);
+    border-radius: 5px;
+}*/
+
+.fireFly{
+    width: 4px;
+    height: 4px;
+    background-color: -webkit-radial-gradient(rgba(73,54,137,.5), rgba(73,54,137,0.2)); 
+    background: -o-radial-gradient(rgba(73,54,137,.5), rgba(73,54,137,0.2));
+    background: -moz-radial-gradient(rgba(73,54,137,.5), rgba(73,54,137,0.2)); 
+    background: radial-gradient(rgba(255,255,255,.5), rgba(252,250,150,1));
+/*    background-color: rgba(252,250,150,.4);*/
+    box-shadow: 0 0 5px rgba(232,240,5,1);
     border-radius: 5px;
 }
 
