@@ -144,13 +144,13 @@ main {
 }
 
 .hsContent {
-	max-width: 450px;
+/*	max-width: 450px;*/
 	margin: -150px auto 0 auto;
 	display: table-cell;
 	vertical-align: middle;
 	color: #ebebeb;
-	padding: 0 8%;
-	text-align: center
+/*	padding: 0 0%;*/
+	text-align: left
 }
 	.hsContent h2,
 	.copy h2 {
@@ -365,8 +365,14 @@ main {
     }
 }
 
+#slide-1 .bcg {
+    background-image:url('../img/goldengate.jpg');
+    background-position: 85% 80% !important; 
+}
+
 #meetPG{
-    font-size: 80px;
+    font-size: 500%;
+    margin: 0 auto;
 }
 
 #education{
@@ -686,6 +692,310 @@ main {
     border-radius: 5px;
 }
 
+
+
+@media only screen and (max-width: 500px) {
+
+#slide-1 .bcg {
+    background-image:url('../img/goldengate.jpg');
+    background-position: 85% 100% !important; 
+}
+
+#meetPG{
+    font-size: 40px;
+}
+
+#education{
+    margin-top: -450px;
+    margin-left: 50px;
+    text-align: left;
+    position: relative;
+    float: left;
+}
+
+.smaller{
+    font-size: 28px;
+}
+
+#GAeducation{
+    margin-top: 300px;
+    text-align: left;
+    position: relative;
+    float: right;
+    margin-right: 30px;
+}
+
+#whose{
+    margin-top: -500px;
+/*    margin-left: 30px;*/
+    text-align: left;
+    position: relative;
+    float: left;
+}
+
+#drive{
+    margin-top: -250px !important;
+    margin-left: 400px;
+    text-align: left;
+    position: relative;
+    float: center;
+}
+
+#tcLogo{
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    margin-top: -200px;
+}
+
+#devDiv{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#unexplored{
+    margin-top: -150px;
+    font-size: 80px;
+}
+
+#building{
+    font-size: 25px;
+    margin-left: -450px;
+    margin-top: -200px;
+    padding-bottom: 0px;
+}
+
+#onTheWeb{
+    z-index: 10;
+    position: absolute;
+    margin-top: 0px;
+    left: 100px;
+}
+
+#webpageImage{
+    width: 100%;
+    margin-left: -100px;
+    padding-bottom: 50px;
+}
+
+#nodemon{
+    position: relative;
+    float: left;
+    margin-left: 0px;
+}
+
+#jquer{
+    position: relative;
+    padding-right: 100px;
+}
+
+#angular{
+    position: relative;
+    float: right;
+    margin-top: -60px;
+}
+
+.mobilePics{
+    height: 500px;
+    width: 300px;
+    border-radius: 5px;
+} 
+
+#searchPic{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+}
+
+#favoritePic{
+    position: relative;
+    float: right;
+    margin-right: -200px;
+}
+
+#feedPic{
+    position: relative;
+    float: left;
+    margin-left: -200px;
+    margin-top: 400px;
+}
+
+#sharePic{
+    position: relative;
+    float: right;
+    margin-top: 400px;
+    padding-bottom: 30px;
+}
+
+#tunecoopWebpageLink{
+    z-index: 100;
+    float: right;
+    font-size: 25px;
+    margin-top: -50px;
+    margin-right: 5%;
+}
+
+#tunecoopmobileWebpageLink{
+/*    z-index: 100;*/
+    float: right;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-right: -20%;
+}
+
+#andForMobile{
+    margin-left: -350px;
+}
+
+.mobileText{
+    font-size: 25px !important;
+    position: absolute;
+}
+
+#searchText{
+    padding-top: 100px;
+    left: 10px;
+}
+
+#favoriteText{
+    right: 33%;
+    top: 1250px;
+}
+
+#shareText{
+    padding-top: 100px;
+    right: 550px;
+}
+
+#feedText{
+    left: 5%;
+    top: 1250px;
+}
+
+.logoStyle{
+    font-family: 'Lobster', cursive;   
+}
+
+#techSpecs{
+    height: 300px;
+    position: absolute;
+    top: 2000px;
+}
+
+.whitespace{
+    margin-top: 0px;
+    height: 1200px;
+    width: 20%;
+    background-color: white;
+    position: relative;
+    float: left;
+}
+
+.whitespace0{
+    margin-top: 0px;
+    height: 1200px;
+    width: 19%;
+    background-color: white;
+    position: relative;
+    float: left;
+}
+
+.whitespace1{
+    margin-top: 0px;
+    height: 1200px;
+    width: 21%;
+    background-color: white;
+    position: relative;
+    float: left;
+}
+
+.whitespace2{
+    margin-top: 0px;
+    height: 1200px;
+    width: 22%;
+    background-color: white;
+    position: relative;
+    float: left;
+}
+
+.whitespace3{
+    margin-top: 0px;
+    height: 1200px;
+    width: 18%;
+    background-color: white;
+    position: relative;
+    float: left;
+}
+.and{
+    position: absolute;
+    color: black;
+}
+
+#and{
+    top: 400px;
+    left: 100px;
+}
+
+#leading{
+    top: 400px;
+    left: 20%;
+}
+
+#the{
+    top: 400px;
+    left: 40%;
+}
+
+#way{
+    top: 400px;
+    left: 60%;
+}
+
+#of{
+    top: 400px;
+    right: 18%;
+}
+
+#discovery{
+    font-size: 80px;
+    position: absolute;
+    left: 35%;
+    bottom: 53.5% !important;
+    font-weight: bold;
+}
+
+#previewTC{
+    font-size: 25px;
+    text-align: center;
+}
+
+.finalLinks{
+    color: white;
+}
+
+.hsContent a{
+    color: white !important;
+    font-size: 18px;
+}
+
+.hsContent p {
+    color: white !important;
+    font-size: 18px;
+}
+
+#aboutPaulFinal{    
+    background-color: hsla(0,0%,15%,.5)
+}
+/*
+#forWebAndMobile{
+    margin-top: -40px;
+}
+*/
+#previewTC{
+    margin-bottom: 0px;
+}
+
+
+}
 /*
 #tcContain{
     text-align: left;
