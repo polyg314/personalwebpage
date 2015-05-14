@@ -705,8 +705,12 @@ main {
     background-position: 85% 100% !important; 
 }
 
-#meetPG{
+#aScientist{
     font-size: 40px;
+}
+
+#meetPG{
+    font-size: 36px;
 }
 
 #education{
@@ -742,6 +746,10 @@ main {
     float: left;
 }
 
+#whose h2{
+    font-size: 36px;
+}
+
 #drive{
     margin-top: -250px !important;
     margin-left: 0px !important;
@@ -750,9 +758,13 @@ main {
     float: center;
 }
 
+#drive h2{
+    font-size: 36px;
+}
+
 #tcLogo{
     font-family: 'Lobster', cursive;
-    font-size: 60px;
+    font-size: 50px;
     margin-top: -200px;
     margin-left: -20px;
 }
@@ -792,21 +804,29 @@ main {
     margin-top: 20px;
 }
 
-#nodemon{
+/*#nodemon{
     position: relative;
     float: left;
-    margin-left: 0px;
+}*/
+
+#nodemon h2{
+    font-size: 24px !important;
 }
 
-#jquer{
-    position: relative;
-    padding-right: 100px;
+#jquer {
+    width: 50%;
+    margin: 0 auto;
+}
+#jquer h2{
+    font-size: 24px !important;
 }
 
-#angular{
-    position: relative;
-    float: right;
-    margin-top: -60px;
+#angular h2{
+    font-size: 24px !important;
+}
+
+#ang{
+    margin-left: -40px;
 }
 
 .mobilePics{
@@ -819,6 +839,7 @@ main {
     position: relative;
     float: left;
     margin-left: 50px;
+    margin-top: 30px;
 }
 
 #favoritePic{
@@ -858,7 +879,7 @@ main {
 }
 
 #andForMobile{
-    margin-left: -350px;
+    font-size: 30px;
 }
 
 .mobileText{
@@ -867,7 +888,7 @@ main {
 }
 
 #searchText{
-    padding-top: 100px;
+    padding-top: 0px;
     left: 10px;
 }
 
@@ -946,34 +967,34 @@ main {
 }
 
 #and{
-    top: 400px;
-    left: 100px;
+    top: 300px;
+    left: 10px;
 }
 
 #leading{
-    top: 400px;
+    top: 340px;
     left: 20%;
 }
 
 #the{
-    top: 400px;
-    left: 40%;
+    top: 380px;
+    left: 47%;
 }
 
 #way{
-    top: 400px;
+    top: 420px;
     left: 60%;
 }
 
 #of{
-    top: 400px;
+    top: 460px;
     right: 18%;
 }
 
 #discovery{
-    font-size: 80px;
+    font-size: 50px;
     position: absolute;
-    left: 35%;
+    left: 8%;
     bottom: 53.5% !important;
     font-weight: bold;
 }
